@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "SendLayer API Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#211FA6",
+    "light": "#2f2dc2",
+    "dark": "#211FA6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -50,6 +50,26 @@
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete"
             ]
+          },
+          {
+            "group": "Email",
+            "pages": [
+              "api-reference/endpoint/email"
+            ]
+          },
+          {
+            "group": "Events",
+            "pages": [
+              "api-reference/endpoint/events"
+            ]
+          },
+          {
+            "group": "Webhooks",
+            "pages": [
+              "api-reference/endpoint/webhooks/get",
+              "api-reference/endpoint/webhooks/post",
+              "api-reference/endpoint/webhooks/delete"
+            ]
           }
         ]
       }
@@ -58,17 +78,17 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://sendlayer.com/docs",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://twitter.com/sendlayer",
+          "icon": "twitter"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://sendlayer.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -81,21 +101,21 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Sign in",
+        "href": "https://app.sendlayer.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get Started",
+      "href": "https://sendlayer.com/pricing/"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/sendlayer",
+      "github": "https://github.com/sendlayer",
+      "linkedin": "https://linkedin.com/company/sendlayer"
     }
   }
 }
