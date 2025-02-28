@@ -198,6 +198,11 @@
         "url": "https://console.sendlayer.com/api/v1/"
       }
     ],
+    "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
     "components": {
       "securitySchemes": {
         "bearerAuth": {
