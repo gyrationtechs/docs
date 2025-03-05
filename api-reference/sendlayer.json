@@ -13,10 +13,10 @@
             "Email"
           ],
           "summary": "Send an email with an optional attachment",
-          "description": "SendLayer sends emails through the API based on JSON input. The JSON properties, such as <code>Subject</code>, <code>HTMLContent</code>, and <code>PlainContent</code>, are converted to a valid message when sent to the recipient.<br/><br/><strong>Note:</strong> A table containing custom error codes can be found in <strong>Schemas &raquo; Error codes</strong>.",
+          "description": "SendLayer sends emails through the API based on JSON input. The JSON properties, such as `Subject`, `HTMLContent`, and `PlainContent`, are converted to a valid message when sent to the recipient.\n\n**Note:** A table containing custom error codes can be found in **Schemas &raquo; Error codes**.",
           "operationId": "sendEmail",
           "requestBody": {
-            "description": "Below is the JSON payload required for sending a single email. Be sure to replace the example email addresses with valid email addresses in the <code>From</code> and <code>To</code> objects.<br/><br/><strong>Note:</strong> The <code>From</code> email address must contain your sender domain, which is the domain that you’ve verified in SendLayer. For example, if you’ve authorized <strong>example.com</strong> you’ll need to use <strong>your-email@example.com</strong>.<br>Additionally, you can send emails to multiple recipients by adding more objects to the <code>To</code>, <code>CC</code>,and <code>BCC</code> arrays within the specified limits. See our <a href=\"https://sendlayer.com/docs/getting-started-with-the-sendlayer-api/#limit\" title=\"Getting Started With the SendLayer API\">Getting Started guide</a> for more details.",
+            "description": "Below is the JSON payload required for sending a single email. Be sure to replace the example email addresses with valid email addresses in the `From` and `To` objects.\n\n**Note:** The `From` email address must contain your sender domain, which is the domain that you’ve verified in SendLayer. For example, if you’ve authorized **example.com** you’ll need to use **your-email@example.com**.\nAdditionally, you can send emails to multiple recipients by adding more objects to the `To`, `CC`,and `BCC` arrays within the specified limits. See our [Getting Started guide](https://sendlayer.com/docs/getting-started-with-the-sendlayer-api/#limit) for more details.",
             "required": true,
             "content": {
               "application/json": {
@@ -28,7 +28,7 @@
           },
           "responses": {
             "200": {
-              "description": "OK <br/><br/>A successfully delivered email returns the <code>MessageID</code>",
+              "description": "OK \n\nA successfully delivered email returns the `MessageID`",
               "content": {
                 "application/json": {
                   "schema": {
@@ -46,10 +46,10 @@
             "Events"
           ],
           "summary": "Returns all logged email events",
-          "description": "Returns events regarding the status of your email.<br/><br/> To learn more about the different event types, see our guide to <a href=\"https://sendlayer.com/docs/checking-the-email-log/\" title=\"Checking the Email Log\">checking the email log in SendLayer.</a>",
+          "description": "Returns events regarding the status of your email.\n\n To learn more about the different event types, see our guide to [checking the email log in SendLayer](https://sendlayer.com/docs/checking-the-email-log/).",
           "responses": {
             "200": {
-              "description": "OK <br/><br/> A succesful response returns records for the logged email event(s)",
+              "description": "OK \n\nA succesful response returns records for the logged email event(s)",
               "content": {
                 "application/json": {
                   "schema": {
@@ -122,10 +122,10 @@
             "Webhooks"
           ],
           "summary": "Add a new webhook",
-          "description": "Creates a new webhook by adding the webhook event type and webhook URL. <br/><br/>For details on using webhooks in the SendLayer app, see our guide to <a href=\"https://sendlayer.com/docs/managing-webhooks/\" title=\"Managing Webhooks\">managing webhooks</a>.",
+          "description": "Creates a new webhook by adding the webhook event type and webhook URL. \n\nFor details on using webhooks in the SendLayer app, see our guide to [managing webhooks](https://sendlayer.com/docs/managing-webhooks/).",
           "responses": {
             "200": {
-              "description": "OK <br/><br/>A successfully created webhook returns the <code>NewWebhookID</code>",
+              "description": "OK \n\nA successfully created webhook returns the `NewWebhookID`",
               "content": {
                 "application/json": {
                   "schema": {
@@ -136,7 +136,7 @@
             }
           },
           "requestBody": {
-            "description": "Below is the JSON payload required for creating a new webhook. Be sure to replace the example URL with your webhook URL and choose a valid webhook event from the following options: <code>bounce</code>,<code>click</code>, <code>open</code>, <code>unsubscribe</code>, <code>complaint</code>, <code>delivery</code>.",
+            "description": "Below is the JSON payload required for creating a new webhook. Be sure to replace the example URL with your webhook URL and choose a valid webhook event from the following options: `bounce`,`click`, `open`, `unsubscribe`, `complaint`, `delivery`.",
             "required": true,
             "content": {
               "application/json": {
@@ -152,10 +152,10 @@
             "Webhooks"
           ],
           "summary": "Returns all available webhooks",
-          "description": "Returns all the available webhooks you've added to your domain registered in SendLayer.<br/><br/>For details on using webhooks in the SendLayer app, see our guide to <a href=\"https://sendlayer.com/docs/managing-webhooks/\" title=\"Managing Webhooks\">managing webhooks</a>.",
+          "description": "Returns all the available webhooks you've added to your domain registered in SendLayer.\n\nFor details on using webhooks in the SendLayer app, see our guide to [managing webhooks](https://sendlayer.com/docs/managing-webhooks/).",
           "responses": {
             "200": {
-              "description": "OK <br/><br/>A succesful response returns records for the webhooks you've added to your registered domain",
+              "description": "OK \n\nA succesful response returns records for the webhooks you've added to your registered domain",
               "content": {
                 "application/json": {
                   "schema": {
@@ -184,7 +184,7 @@
             "Webhooks"
           ],
           "summary": "Delete webhook by ID",
-          "description": "Deletes a webhook by ID. Be sure to replace <code>{id}</code> with the ID of the webhook you'd like to delete.<br/><br/>For details on using webhooks in the SendLayer app, see our guide to <a href=\"https://sendlayer.com/docs/managing-webhooks/\" title=\"Managing Webhooks\">managing webhooks.</a>",
+          "description": "Deletes a webhook by ID. Be sure to replace `{id}` with the ID of the webhook you'd like to delete.\n\nFor details on using webhooks in the SendLayer app, see our guide to [managing webhooks](https://sendlayer.com/docs/managing-webhooks/).",
           "responses": {
             "200": {
               "description": "Sucessful response"
