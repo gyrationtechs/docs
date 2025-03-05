@@ -44,14 +44,6 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          },
-          {
             "group": "Email",
             "pages": [
               "api-reference/endpoint/email"
@@ -116,6 +108,60 @@
       "x": "https://x.com/sendlayer",
       "github": "https://github.com/sendlayer",
       "linkedin": "https://linkedin.com/company/sendlayer"
-    }
+    },
+    "links": [
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "Pricing",
+            "href": "https://sendlayer.com/pricing/"
+          },
+          {
+            "label": "Contact",
+            "href": "https://sendlayer.com/contact/"
+          },
+          {
+            "label": "Features",
+            "href": "https://sendlayer.com/features/"
+          },
+          {
+            "label": "About",
+            "href": "https://sendlayer.com/about"
+          },
+          {
+            "label": "Support",
+            "href": "https://sendlayer.com/contact/"
+          }
+          
+        ]
+      },
+      {
+        "header": "Built for You",
+        "items": [
+          {
+            "label": "Pricing",
+            "href": "https://sendlayer.com/pricing/"
+          },
+          {
+            "label": "Contact",
+            "href": "https://sendlayer.com/contact/"
+          },
+          {
+            "label": "Features",
+            "href": "https://sendlayer.com/features/"
+          },
+          {
+            "label": "About",
+            "href": "https://sendlayer.com/about"
+          },
+          {
+            "label": "Support",
+            "href": "https://sendlayer.com/contact/"
+          }
+          
+        ]
+      }
+    ]
   }
 }
