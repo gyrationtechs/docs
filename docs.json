@@ -140,26 +140,55 @@
         "header": "Built for You",
         "items": [
           {
-            "label": "Pricing",
-            "href": "https://sendlayer.com/pricing/"
+            "label": "Email API",
+            "href": "https://sendlayer.com/features/email-api/"
           },
           {
-            "label": "Contact",
-            "href": "https://sendlayer.com/contact/"
+            "label": "SMTP",
+            "href": "https://sendlayer.com/features/smtp/"
           },
           {
-            "label": "Features",
-            "href": "https://sendlayer.com/features/"
+            "label": "Email Logs",
+            "href": "https://sendlayer.com/features/email-logs/"
           },
           {
-            "label": "About",
-            "href": "https://sendlayer.com/about"
+            "label": "Open & Click Tracking",
+            "href": "https://sendlayer.com/features/open-and-click-tracking/"
           },
           {
-            "label": "Support",
-            "href": "https://sendlayer.com/contact/"
+            "label": "Email Analytics",
+            "href": "https://sendlayer.com/features/email-analytics/"
+          },
+          {
+            "label": "Transactional SMTP",
+            "href": "https://sendlayer.com/features/transactional-smtp-service/"
           }
           
+        ]
+      },
+      {
+        "header": "Popular Docs",
+        "items": [
+          {
+            "label": "Creating Your Account",
+            "href": "https://sendlayer.com/docs/creating-your-account/"
+          },
+          {
+            "label": "Authorizing Your Domain",
+            "href": "https://sendlayer.com/docs/authorizing-your-domain/"
+          },
+          {
+            "label": "Connecting Your Site to SMTP",
+            "href": "https://sendlayer.com/docs/connecting-your-site-with-smtp/"
+          },
+          {
+            "label": "Protecting Your Site From Spam",
+            "href": "https://sendlayer.com/docs/protecting-your-site-from-spam/"
+          },
+          {
+            "label": "Managing Your Supression List",
+            "href": "https://sendlayer.com/docs/managing-your-suppression-list/"
+          }
         ]
       }
     ]
