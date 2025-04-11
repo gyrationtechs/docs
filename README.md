@@ -4,7 +4,7 @@ This code include API reference for SendLayer's API endpoints. It is built using
 
 ### Running Locally
 
-1. Clone or Fork this repository to your local machine `https://github.com/SendLayer/sendlayer-api-docs.git`.
+1. Clone or Fork this repository to your local machine `https://github.com/gyrationtechs/docs.git`.
 
 2. Then install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
 
