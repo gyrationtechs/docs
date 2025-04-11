@@ -353,7 +353,7 @@
                 "type": "object",
                 "properties": {
                   "WebhookID": {
-                    "type": "string",
+                    "type": "integer",
                     "example": 972
                   },
                   "CreatedAt": {
