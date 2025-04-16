@@ -1,6 +1,5 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
   "name": "SendLayer API Documentation",
   "colors": {
     "primary": "#211FA6",
